@@ -1,6 +1,6 @@
 ## Simple Injector Webpack Plugin
 
-This is a [webpack](http://webpack.github.io/) plugin that inject output assets names (or rendered templates based on assets names) into specified files using *wiredep*-like syntax
+This is a [webpack](http://webpack.github.io/) plugin that inject output assets names (or rendered templates based on assets names) into specified files using _wiredep_-like syntax.
 
 ```html
 <!-- injector:js -->
@@ -23,11 +23,11 @@ npm install --save-dev simple-injector-webpack-plugin
 
 #### Parameter object properties
 
-- *eol* (~optional~)(*string*) - what type of EOL should be used. Possible values: `win`, `windows`. Windows results in `\r\n` EOL in an output file. The default value results `\r` EOL in an output file.
-- *file* (*string*) - path to a file, that output assets need to be injected to. Can be absolute or relative to a current working directory (cwd).
-- *filter* (~optional~)(*function*) - filter asset names for a current injector rule. Default: `() => true`.
-- *injectorName* (~optional~)(*string*) - in what injector placeholder the data should be injected. E.g. setting it to `APP` will result in processing `<!-- injector:APP --><!-- endinjector -->` placeholders. Default: `js`.
-- *template* (~optional~)(*function*) - template to render a string for a particular asset. Default: `assetName => assetName`
+- **eol** (_optional_)(**string**) - what type of EOL should be used. Possible values: `win`, `windows`. Windows results in `\r\n` EOL in an output file. The default value results `\r` EOL in an output file.
+- **file** (_string_) - path to a file, that output assets need to be injected to. Can be absolute or relative to a current working directory (cwd).
+- **filter** (_optional_)(**function**) - filter asset names for a current injector rule. Default: `() => true`.
+- **injectorName** (_optional_)(**string**) - in what injector placeholder the data should be injected. E.g. setting it to `APP` will result in processing `<!-- injector:APP --><!-- endinjector -->` placeholders. Default: `js`.
+- **template** (_optional_)(**function**) - template to render a string for a particular asset. Default: `assetName => assetName`
 
 
 ### Example
@@ -62,7 +62,7 @@ module.exports = {
 };
 ```
 
-```razor
+```html
 <!doctype html>
 <html lang="en">
 <head>
