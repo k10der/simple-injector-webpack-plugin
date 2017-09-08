@@ -100,6 +100,7 @@ Output:
 @Html.Partial("_Footer")
 <!-- injector:app -->
 <script src="/Scripts/Dist/app.023ff67c2570bc070b0e.js"></script>
+<script src="/Scripts/Dist/vendor.b3d0baffcbe258df4ee7.js"></script>
 <!-- endinjector -->
 </body>
 </html>
