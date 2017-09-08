@@ -1,0 +1,26 @@
+{
+  "name": "simple-injector-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Inject output assets paths into specified files",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src/ --out-dir dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "inject"
+  ],
+  "author": "Sergey Palikhov",
+  "license": "MIT",
+  "homepage": "https://github.com/k10der/simple-injector-webpack-plugin",
+  "dependencies": {
+    "async": "^2.5.0",
+    "file-exists": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

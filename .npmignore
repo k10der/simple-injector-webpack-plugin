@@ -1,0 +1,6 @@
+src
+test
+compiled_tests
+coverage
+.*
+*.log
