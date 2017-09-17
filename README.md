@@ -1,5 +1,7 @@
 ## Simple Injector Webpack Plugin
 
+[![Build Status](https://travis-ci.org/k10der/simple-injector-webpack-plugin.svg?branch=master)](https://travis-ci.org/k10der/simple-injector-webpack-plugin)
+
 This is a [webpack](http://webpack.github.io/) plugin that inject output assets names (or rendered templates based on assets names) into specified files using _wiredep_-like syntax.
 
 ```html
