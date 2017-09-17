@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "babel src/ --out-dir dist/",
-    "test": "mocha --require babel-polyfill --compilers js:babel-register test/*.js"
+    "test": "mocha --compilers js:babel-register test/*.js"
   },
   "keywords": [
     "webpack",
@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
